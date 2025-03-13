@@ -18,6 +18,11 @@ In this project you will build such a pipeline.
 
 ## Preliminary steps
 
+## Weights and Balances & GitHub Links
+
+https://wandb.ai/amass96-wgu/nyc_airbnb?nw=nwuseramass96
+https://github.com/amamas713/Project-Build-an-ML-Pipeline-Starter
+
 ### Supported Operating Systems
 
 This project is compatible with the following operating systems:
