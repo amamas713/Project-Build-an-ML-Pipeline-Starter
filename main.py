@@ -66,7 +66,7 @@ def go(config: DictConfig):
                     "max_price": config['etl']['max_price'],  
                 },
              )
-            ##pass
+            
 
         if "data_check" in active_steps:
             ##################
@@ -81,9 +81,9 @@ def go(config: DictConfig):
                     "kl_threshold": config["data_check"]["kl_threshold"],   
                     "min_price": config['etl']['min_price'],  
                     "max_price": config['etl']['max_price'],  
-            },
-        )
-            ##pass
+                },
+            )
+            
 
         if "data_split" in active_steps:
             ##################
@@ -99,7 +99,7 @@ def go(config: DictConfig):
                     "stratify_by": config["modeling"]["stratify_by"],
                 },
             )
-            ##pass
+        
 
         if "train_random_forest" in active_steps:
 
@@ -128,7 +128,7 @@ def go(config: DictConfig):
                 },
             )
 
-            ##pass
+            
 
         if "test_regression_model" in active_steps:
 
@@ -143,7 +143,7 @@ def go(config: DictConfig):
                     "test_dataset": "test_data.csv:latest",
                 },
             )
-            pass
+            
 
 
 if __name__ == "__main__":
