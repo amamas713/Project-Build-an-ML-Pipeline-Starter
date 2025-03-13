@@ -63,6 +63,8 @@ def test_similar_neigh_distrib(data: pd.DataFrame, ref_data: pd.DataFrame, kl_th
 ########################################################
 # Implement here test_row_count and test_price_range   #
 ########################################################
+# Referenced this GitHub Repo through Udacity Help, https://github.com/TypeOprogrammer/Project-Build-an-ML-Pipeline-Starter/blob/main/src/data_check/test_data.py
+# for the second function 
 
 def test_row_count(data):
     assert 15000 < data.shape[0] < 1000000
